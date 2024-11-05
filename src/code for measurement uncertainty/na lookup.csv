@@ -1,0 +1,11 @@
+Condition,State,Bound,Median,Absolute extremes,Refined extremes
+Flow at sample time,,Upper,0.5,1,0.5
+Flow at sample time,,Lower,-0.5,-1,-0.5
+Equipment contamination,,Upper,0.2,0.5,0.2
+Equipment contamination,,Lower,-0.1,-0.5,-0.1
+Days from sample to analysis,,Upper,0.1,0.1,0.1
+Days from sample to analysis,,Lower,-0.2,-0.2,-0.2
+Sample Temp,,Upper,0.1,0.1,0.1
+Sample Temp,,Lower,-0.1,-0.1,-0.1
+Days to filtering,,Upper,0.2,0.2,0.2
+Days to filtering,,Lower,-0.1,-0.1,-0.1

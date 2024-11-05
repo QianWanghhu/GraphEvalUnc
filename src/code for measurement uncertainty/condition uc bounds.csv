@@ -1,0 +1,29 @@
+Condition,State,Bound,Median,Absolute extremes,Refined extremes,ID1,ID2,ID3,ID4,ID5,ID6,ID7,ID8,ID9,ID10,ID11,ID12
+Flow at sample time,First Flush,Upper,0.35,1,0.5,0.5,1,0.2,,0.2,0.5,0.2,0.5,0.2,0.1,0.5,
+Flow at sample time,First Flush,Lower,-0.2,-1,-0.5,-0.5,-1,-0.2,,-0.5,-0.2,-0.2,-0.2,-0.2,-0.1,-0.1,
+Flow at sample time,High flow,Upper,0.2,1,1,0.5,1,0.2,0.1,0.1,1,0.1,0.2,0.1,0.1,0.5,
+Flow at sample time,High flow,Lower,-0.2,-1,-0.5,-0.5,-1,-0.2,-0.05,-0.2,-0.5,-0.1,-0.2,-0.1,-0.1,-0.1,
+Flow at sample time,Low flow,Upper,0.2,1,1,1,1,0.05,0.1,0.2,0.2,0.1,0.2,0.5,0.1,0.2,
+Flow at sample time,Low flow,Lower,-0.2,-1,-1,-1,-1,-0.05,-0.2,-0.1,-0.2,-0.1,-0.2,-0.5,-0.1,-0.1,
+Equipment contamination,AS,Upper,0.1,0.5,0.2,,0.05,0.05,0.2,0.2,0.5,0.05,0.1,0.5,,0.1,0.1
+Equipment contamination,AS,Lower,-0.1,-0.5,-0.1,,-0.05,-0.05,-0.1,-0.1,-0.5,-0.05,0.1,-0.5,,-0.05,-0.1
+Equipment contamination,MA,Upper,0.075,0.5,0.1,,0.05,0.05,0.1,0.05,0.5,0.1,0.05,0.1,,0.1,0.05
+Equipment contamination,MA,Lower,-0.05,-0.5,-0.1,,-0.05,-0.05,-0.05,-0.05,-0.5,-0.05,-0.05,-0.1,,-0.05,-0.05
+Equipment contamination,contaminated,Upper,0.5,0.5,0.5,,,,,,,,,,,,
+Equipment contamination,contaminated,Lower,-0.5,-0.5,-0.5,,,,,,,,,,,,
+Days from sample to analysis,Optimal,Upper,0.05,0.1,0.1,,0.05,0.05,0.1,0.05,0.1,0.05,0.05,0.1,,0.05,0.05
+Days from sample to analysis,Optimal,Lower,-0.075,-0.2,-0.2,,-0.05,-0.05,-0.1,-0.05,-0.1,-0.2,-0.05,-0.1,,-0.1,-0.05
+Days from sample to analysis,Suboptimal,Upper,0.1,0.5,0.5,,0.1,0.2,0.1,0.1,0.1,0.05,0.1,0.5,,,0.1
+Days from sample to analysis,Suboptimal,Lower,-0.2,-1,-1,,-0.1,-0.2,-0.5,-0.2,-0.1,-0.2,-0.1,-0.5,,-1,-0.1
+Sample Temp,Normal,Upper,0.05,0.1,0.1,0.1,0.05,0.05,0.1,0.05,,0.05,0.05,0.05,0.05,0.05,0.05
+Sample Temp,Normal,Lower,-0.05,-0.1,-0.1,-0.1,-0.05,-0.05,-0.1,-0.05,,-0.05,-0.05,-0.05,-0.05,-0.1,-0.05
+Sample Temp,Suboptimal,Upper,0.1,1,0.2,,0.05,1,0.1,0.1,,0.1,0.1,0.05,0.2,,0.1
+Sample Temp,Suboptimal,Lower,-0.2,-1,-1,-1,-0.05,-1,-0.2,-0.2,,-0.1,-0.1,-0.05,-0.2,-1,-0.1
+Sample Temp,Thawed,Upper,0.2,0.5,0.5,,0.1,0.5,0.1,0.1,0.5,0.1,0.5,0.2,0.5,,0.2
+Sample Temp,Thawed,Lower,-0.5,-1,-1,-1,-0.1,-0.5,-0.5,-0.1,-0.5,-0.1,-0.5,-0.2,-0.5,-1,-0.2
+Days to filtering,Optimal,Upper,0.05,0.2,0.2,,0.05,0.05,0.1,0.05,0.05,0.05,0.05,0.05,0.05,0.2,0.05
+Days to filtering,Optimal,Lower,-0.05,-0.1,-0.1,,-0.05,-0.05,-0.1,-0.05,-0.05,-0.05,-0.05,-0.05,-0.05,-0.05,-0.05
+Days to filtering,Suboptimal,Upper,0.2,0.5,0.5,,0.1,0.05,0.2,0.1,0.2,0.1,0.2,0.2,0.2,0.5,0.1
+Days to filtering,Suboptimal,Lower,-0.1,-0.5,-0.5,,-0.1,-0.05,-0.5,-0.1,-0.2,-0.1,-0.2,-0.2,-0.2,-0.05,-0.1
+Lab,All,Upper,0.08,0.08,0.08,0.08,0.08,0.08,0.08,0.08,0.08,0.08,0.08,0.08,0.08,0.08,0.08
+Lab,All,Lower,-0.08,-0.08,-0.08,-0.08,-0.08,-0.08,-0.08,-0.08,-0.08,-0.08,-0.08,-0.08,-0.08,-0.08,-0.08

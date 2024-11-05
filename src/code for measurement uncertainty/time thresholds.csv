@@ -1,0 +1,9 @@
+Condition,Sampling,State,Median,Absolute extremes,Guideline,ID1,ID2,ID3,ID4,ID5,ID6,ID7,ID8,ID9,ID10,ID11,ID12
+Days from sample to analysis,,Optimal,11,1,28,,30,1,5,30,2,28,7,28,,7,15
+Days from sample to analysis,,Suboptimal,22.5,7,365,,90,15,14,40,7,365,30,42,,10,15
+Days to filtering,AS,Optimal,2,1,2,,,,,2,2,2,2,1,,2,2
+Days to filtering,AS,Suboptimal,5,2,7,,7,,7,5,,7,5,3,,,2
+Days to filtering,MA,Optimal,0.04,0.01,2,0.0,0.0,0.1,0.5,0.1,,,0.3,0.0,,0.0,0.0
+Days to filtering,MA,Suboptimal,0.63,0.01,7,,0.3,2.0,,,3.0,,,1.0,,0.0,0.0
+Days to filtering,contaminated,Optimal,,,,,,,,,,,,,,,
+Days to filtering,contaminated,Suboptimal,,,,,,,,,,,,,,,
