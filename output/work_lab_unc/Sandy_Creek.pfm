@@ -1,0 +1,1362 @@
+PEST++ performance logger started at:  11:36:25
+        ( time = 11:36:25,  elapsed time = 3ms )
+  starting to process control file
+          ( time = 11:36:25,  elapsed time = 1ms )
+  finished processing control file
+          ( time = 11:36:25,  elapsed time = 16ms )
+  
+  ---  initializing  ---  
+          ( time = 11:36:25,  elapsed time = 364us )
+  ...using REDSVD for truncated svd solve
+          ( time = 11:36:25,  elapsed time = 248us )
+  ...maxsing: 10
+          ( time = 11:36:25,  elapsed time = 320us )
+  ...eigthresh:  1e-07
+          ( time = 11:36:25,  elapsed time = 326us )
+  ...initializing localizer
+          ( time = 11:36:25,  elapsed time = 568us )
+  ...not using localization
+          ( time = 11:36:25,  elapsed time = 172us )
+  ...using lambda multipliers: 0.1 , 1 , 10 , 
+          ( time = 11:36:25,  elapsed time = 173us )
+  ...using lambda scaling factors: 0.75 , 0.925 , 1.1 , 
+          ( time = 11:36:25,  elapsed time = 182us )
+  ...acceptable phi factor:  1.05
+          ( time = 11:36:25,  elapsed time = 155us )
+  ...lambda increase factor:  10
+          ( time = 11:36:25,  elapsed time = 175us )
+  ...lambda decrease factor:  0.75
+          ( time = 11:36:25,  elapsed time = 154us )
+  ...max run fail:  1
+          ( time = 11:36:25,  elapsed time = 21us )
+  initializing parcov
+          ( time = 11:36:25,  elapsed time = 177us )
+  ...parcov loaded  from parameter bounds, using par_sigma_range 4
+          ( time = 11:36:25,  elapsed time = 170us )
+  ...initializing observation noise covariance matrix
+          ( time = 11:36:25,  elapsed time = 155us )
+  ...obscov loaded  from observation weights
+          ( time = 11:36:25,  elapsed time = 148us )
+  ...using reg_factor:  0.35
+          ( time = 11:36:25,  elapsed time = 14us )
+  processing par csv din_parameter_ensemble.csv
+          ( time = 11:36:25,  elapsed time = 75us )
+  ...loading par ensemble from csv file din_parameter_ensemble.csv
+          ( time = 11:36:25,  elapsed time = 1ms )
+  ...not using prior parameter covariance matrix scaling
+          ( time = 11:36:25,  elapsed time = 12us )
+  load obscov
+          ( time = 11:36:25,  elapsed time = 7us )
+  processing obs csv din_obs_ensemble.csv
+          ( time = 11:36:25,  elapsed time = 69us )
+  ...loading obs ensemble from csv file din_obs_ensemble.csv
+          ( time = 11:36:25,  elapsed time = 1ms )
+  ...adding 'base' parameter values to ensemble
+          ( time = 11:36:25,  elapsed time = 161us )
+  ...adding 'base' observation values to ensemble
+          ( time = 11:36:25,  elapsed time = 88us )
+  checking for denormal values in pe
+          ( time = 11:36:25,  elapsed time = 2ms )
+  ...saved initial parameter ensemble to  Sandy_Creek.0.par.csv
+          ( time = 11:36:25,  elapsed time = 31us )
+  cehcking for denormal values in base oe
+          ( time = 11:36:25,  elapsed time = 4ms )
+  ...saved base observation ensemble (obsval+noise) to  Sandy_Creek.base.obs.csv
+          ( time = 11:36:25,  elapsed time = 159us )
+  ...centering on ensemble mean vector
+          ( time = 11:36:25,  elapsed time = 161us )
+  ...using subset in lambda testing, number of realizations used in subset testing:  5
+          ( time = 11:36:25,  elapsed time = 147us )
+  ...subset how:  RANDOM
+          ( time = 11:36:25,  elapsed time = 58us )
+  running initial ensemble
+          ( time = 11:36:25,  elapsed time = 131us )
+  ...running initial ensemble of size 100
+          ( time = 11:36:25,  elapsed time = 18us )
+  queuing 100 runs
+          ( time = 11:36:25,  elapsed time = 12ms )
+  making runs
+          ( time = 11:50:48,  elapsed time = 14min )
+  processing runs
+          ( time = 11:50:48,  elapsed time = 12ms )
+  ...saved initial obs ensemble to Sandy_Creek.0.obs.csv
+          ( time = 11:50:48,  elapsed time = 34us )
+  calc initial phi
+          ( time = 11:50:48,  elapsed time = 7ms )
+  
+  ---  pre-drop initial phi summary  ---  
+          ( time = 11:50:48,  elapsed time = 2ms )
+  calc initial phi
+          ( time = 11:50:48,  elapsed time = 2ms )
+  
+  ---  initial phi summary  ---  
+          ( time = 11:50:48,  elapsed time = 7ms )
+  ...current lambda: 1
+          ( time = 11:50:48,  elapsed time = 264us )
+  
+  ---  initialization complete  ---  
+          ( time = 11:50:48,  elapsed time = 563us )
+  
+  ---  starting solve for iteration: 1  ---  
+          ( time = 11:50:48,  elapsed time = 45us )
+  starting solve for iteration: 1
+          ( time = 11:50:48,  elapsed time = 325us )
+  ...starting lambda calcs for lambda 0.1
+          ( time = 11:50:48,  elapsed time = 61us )
+  see .pfm file for more details
+          ( time = 11:50:48,  elapsed time = 153us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 11:50:48,  elapsed time = 57us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 11:50:48,  elapsed time = 390us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 11:50:48,  elapsed time = 1ms )
+  ...finished calcs for lambda: 0.1
+          ( time = 11:50:48,  elapsed time = 402us )
+  ...starting lambda calcs for lambda 1
+          ( time = 11:50:48,  elapsed time = 32us )
+  see .pfm file for more details
+          ( time = 11:50:48,  elapsed time = 55us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 11:50:48,  elapsed time = 24us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 11:50:48,  elapsed time = 322us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 11:50:48,  elapsed time = 955us )
+  ...finished calcs for lambda: 1
+          ( time = 11:50:48,  elapsed time = 406us )
+  ...starting lambda calcs for lambda 10
+          ( time = 11:50:48,  elapsed time = 34us )
+  see .pfm file for more details
+          ( time = 11:50:48,  elapsed time = 51us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 11:50:48,  elapsed time = 23us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 11:50:48,  elapsed time = 310us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 11:50:48,  elapsed time = 1ms )
+  ...finished calcs for lambda: 10
+          ( time = 11:50:48,  elapsed time = 383us )
+  
+  ---  running lambda ensembles  ---  
+          ( time = 11:50:48,  elapsed time = 47us )
+  queuing 9 ensembles
+          ( time = 11:50:48,  elapsed time = 7ms )
+  ...subset idx:pe real name:  99:BASE, 1:1, 88:88, 25:25, 93:93, 
+          ( time = 11:50:48,  elapsed time = 12ms )
+  making runs
+          ( time = 11:56:53,  elapsed time = 6min )
+  processing runs
+          ( time = 11:56:53,  elapsed time = 6ms )
+  
+  ---  evaluting lambda ensembles  ---  
+          ( time = 11:56:53,  elapsed time = 294us )
+  ...last mean:  124.681
+          ( time = 11:56:53,  elapsed time = 245us )
+  ...last stdev:  138.576
+          ( time = 11:56:53,  elapsed time = 600us )
+  
+  ---  phi summary for lambda, scale fac:0.1 , 0.75 ,   ---  
+          ( time = 11:56:53,  elapsed time = 466us )
+  
+  ---  phi summary for lambda, scale fac:0.1 , 0.925 ,   ---  
+          ( time = 11:56:53,  elapsed time = 427us )
+  
+  ---  phi summary for lambda, scale fac:0.1 , 1.1 ,   ---  
+          ( time = 11:56:53,  elapsed time = 416us )
+  
+  ---  phi summary for lambda, scale fac:1 , 0.75 ,   ---  
+          ( time = 11:56:53,  elapsed time = 410us )
+  
+  ---  phi summary for lambda, scale fac:1 , 0.925 ,   ---  
+          ( time = 11:56:53,  elapsed time = 414us )
+  
+  ---  phi summary for lambda, scale fac:1 , 1.1 ,   ---  
+          ( time = 11:56:53,  elapsed time = 411us )
+  
+  ---  phi summary for lambda, scale fac:10 , 0.75 ,   ---  
+          ( time = 11:56:53,  elapsed time = 509us )
+  
+  ---  phi summary for lambda, scale fac:10 , 0.925 ,   ---  
+          ( time = 11:56:53,  elapsed time = 412us )
+  
+  ---  phi summary for lambda, scale fac:10 , 1.1 ,   ---  
+          ( time = 11:56:53,  elapsed time = 426us )
+  
+  ---  phi summary for best lambda, scale fac: 0.1 , 0.75 ,   ---  
+          ( time = 11:56:53,  elapsed time = 2ms )
+  
+  ---  running remaining realizations for best lambda, scale:0.1 , 0.75 ,   ---  
+          ( time = 11:56:53,  elapsed time = 31us )
+  dropping subset idxs from remaining_pe_lam
+          ( time = 11:56:53,  elapsed time = 136us )
+  dropping subset idxs from remaining_oe_lam
+          ( time = 11:56:53,  elapsed time = 152us )
+  queuing 95 runs
+          ( time = 11:56:53,  elapsed time = 35ms )
+  making runs
+          ( time = 12:09:54,  elapsed time = 13min )
+  processing runs
+          ( time = 12:09:54,  elapsed time = 2ms )
+  assembling ensembles
+          ( time = 12:09:54,  elapsed time = 548us )
+  updating phi
+          ( time = 12:09:54,  elapsed time = 1ms )
+  ...phi summary for entire ensemble using lambda,scale_fac 0.1 , 0.75 , 
+          ( time = 12:09:54,  elapsed time = 2ms )
+  ...last best mean phi * acceptable phi factor:  130.915
+          ( time = 12:09:54,  elapsed time = 141us )
+  ...current best mean phi:  7.94509
+          ( time = 12:09:54,  elapsed time = 168us )
+  
+  ---  updating parameter ensemble  ---  
+          ( time = 12:09:54,  elapsed time = 23us )
+  updating parameter ensemble
+          ( time = 12:09:54,  elapsed time = 169us )
+  
+  ---  updating lambda to  0.075  ---  
+          ( time = 12:09:54,  elapsed time = 26ms )
+  
+  ---  phi-based termination criteria check  ---  
+          ( time = 12:09:54,  elapsed time = 323us )
+  ...phiredstp:  0.005
+          ( time = 12:09:54,  elapsed time = 302us )
+  ...nphistp:  4
+          ( time = 12:09:54,  elapsed time = 334us )
+  ...nphinored (also used for consecutive bad lambda cycles):  4
+          ( time = 12:09:54,  elapsed time = 320us )
+  ...best mean phi sequence: 124.681 , 7.94509 , 
+          ( time = 12:09:54,  elapsed time = 343us )
+  ...best phi yet:  7.94509
+          ( time = 12:09:54,  elapsed time = 284us )
+  ...number of consecutive bad lambda testing cycles:  0
+          ( time = 12:09:54,  elapsed time = 102us )
+  ...number of iterations satisfying phiredstp criteria:  1
+          ( time = 12:09:54,  elapsed time = 56us )
+  ...number of iterations since best yet mean phi:  0
+          ( time = 12:09:54,  elapsed time = 61us )
+  
+  ---  starting solve for iteration: 2  ---  
+          ( time = 12:09:54,  elapsed time = 15us )
+  starting solve for iteration: 1starting solve for iteration: 2
+          ( time = 12:09:54,  elapsed time = 80us )
+  ...starting lambda calcs for lambda 0.0075
+          ( time = 12:09:54,  elapsed time = 19us )
+  see .pfm file for more details
+          ( time = 12:09:54,  elapsed time = 44us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 12:09:54,  elapsed time = 20us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 12:09:54,  elapsed time = 274us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 12:09:54,  elapsed time = 648us )
+  ...finished calcs for lambda: 0.0075
+          ( time = 12:09:54,  elapsed time = 206us )
+  ...starting lambda calcs for lambda 0.075
+          ( time = 12:09:54,  elapsed time = 18us )
+  see .pfm file for more details
+          ( time = 12:09:54,  elapsed time = 40us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 12:09:54,  elapsed time = 28us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 12:09:54,  elapsed time = 274us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 12:09:54,  elapsed time = 918us )
+  ...finished calcs for lambda: 0.075
+          ( time = 12:09:54,  elapsed time = 395us )
+  ...starting lambda calcs for lambda 0.75
+          ( time = 12:09:54,  elapsed time = 37us )
+  see .pfm file for more details
+          ( time = 12:09:54,  elapsed time = 50us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 12:09:54,  elapsed time = 27us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 12:09:54,  elapsed time = 323us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 12:09:54,  elapsed time = 937us )
+  ...finished calcs for lambda: 0.75
+          ( time = 12:09:54,  elapsed time = 378us )
+  
+  ---  running lambda ensembles  ---  
+          ( time = 12:09:54,  elapsed time = 31us )
+  queuing 9 ensembles
+          ( time = 12:09:54,  elapsed time = 7ms )
+  ...subset idx:pe real name:  4:BASE, 1:25, 88:85, 25:21, 93:91, 
+          ( time = 12:09:54,  elapsed time = 13ms )
+  making runs
+          ( time = 12:15:59,  elapsed time = 6min )
+  processing runs
+          ( time = 12:15:59,  elapsed time = 6ms )
+  
+  ---  evaluting lambda ensembles  ---  
+          ( time = 12:15:59,  elapsed time = 301us )
+  ...last mean:  7.94509
+          ( time = 12:15:59,  elapsed time = 205us )
+  ...last stdev:  3.58168
+          ( time = 12:15:59,  elapsed time = 527us )
+  
+  ---  phi summary for lambda, scale fac:0.0075 , 0.75 ,   ---  
+          ( time = 12:15:59,  elapsed time = 444us )
+  
+  ---  phi summary for lambda, scale fac:0.0075 , 0.925 ,   ---  
+          ( time = 12:15:59,  elapsed time = 415us )
+  
+  ---  phi summary for lambda, scale fac:0.0075 , 1.1 ,   ---  
+          ( time = 12:15:59,  elapsed time = 397us )
+  
+  ---  phi summary for lambda, scale fac:0.075 , 0.75 ,   ---  
+          ( time = 12:15:59,  elapsed time = 466us )
+  
+  ---  phi summary for lambda, scale fac:0.075 , 0.925 ,   ---  
+          ( time = 12:15:59,  elapsed time = 413us )
+  
+  ---  phi summary for lambda, scale fac:0.075 , 1.1 ,   ---  
+          ( time = 12:15:59,  elapsed time = 394us )
+  
+  ---  phi summary for lambda, scale fac:0.75 , 0.75 ,   ---  
+          ( time = 12:15:59,  elapsed time = 394us )
+  
+  ---  phi summary for lambda, scale fac:0.75 , 0.925 ,   ---  
+          ( time = 12:15:59,  elapsed time = 392us )
+  
+  ---  phi summary for lambda, scale fac:0.75 , 1.1 ,   ---  
+          ( time = 12:15:59,  elapsed time = 534us )
+  
+  ---  phi summary for best lambda, scale fac: 0.0075 , 0.925 ,   ---  
+          ( time = 12:15:59,  elapsed time = 2ms )
+  
+  ---  running remaining realizations for best lambda, scale:0.0075 , 0.925 ,   ---  
+          ( time = 12:15:59,  elapsed time = 28us )
+  dropping subset idxs from remaining_pe_lam
+          ( time = 12:15:59,  elapsed time = 145us )
+  dropping subset idxs from remaining_oe_lam
+          ( time = 12:15:59,  elapsed time = 140us )
+  queuing 95 runs
+          ( time = 12:15:59,  elapsed time = 28ms )
+  making runs
+          ( time = 12:29:00,  elapsed time = 13min )
+  processing runs
+          ( time = 12:29:00,  elapsed time = 2ms )
+  assembling ensembles
+          ( time = 12:29:00,  elapsed time = 517us )
+  updating phi
+          ( time = 12:29:00,  elapsed time = 1ms )
+  ...phi summary for entire ensemble using lambda,scale_fac 0.0075 , 0.925 , 
+          ( time = 12:29:00,  elapsed time = 2ms )
+  ...last best mean phi * acceptable phi factor:  8.34234
+          ( time = 12:29:00,  elapsed time = 112us )
+  ...current best mean phi:  6.1866
+          ( time = 12:29:00,  elapsed time = 114us )
+  
+  ---  updating parameter ensemble  ---  
+          ( time = 12:29:00,  elapsed time = 21us )
+  updating parameter ensemble
+          ( time = 12:29:00,  elapsed time = 125us )
+  
+  ---  updating lambda to  0.005625  ---  
+          ( time = 12:29:00,  elapsed time = 26ms )
+  
+  ---  phi-based termination criteria check  ---  
+          ( time = 12:29:00,  elapsed time = 315us )
+  ...phiredstp:  0.005
+          ( time = 12:29:00,  elapsed time = 316us )
+  ...nphistp:  4
+          ( time = 12:29:00,  elapsed time = 190us )
+  ...nphinored (also used for consecutive bad lambda cycles):  4
+          ( time = 12:29:00,  elapsed time = 186us )
+  ...best mean phi sequence: 124.681 , 7.94509 , 6.1866 , 
+          ( time = 12:29:00,  elapsed time = 137us )
+  ...best phi yet:  6.1866
+          ( time = 12:29:00,  elapsed time = 190us )
+  ...number of consecutive bad lambda testing cycles:  0
+          ( time = 12:29:00,  elapsed time = 316us )
+  ...number of iterations satisfying phiredstp criteria:  1
+          ( time = 12:29:00,  elapsed time = 259us )
+  ...number of iterations since best yet mean phi:  0
+          ( time = 12:29:00,  elapsed time = 340us )
+  
+  ---  starting solve for iteration: 3  ---  
+          ( time = 12:29:00,  elapsed time = 20us )
+  starting solve for iteration: 1starting solve for iteration: 2starting solve for iteration: 3
+          ( time = 12:29:00,  elapsed time = 174us )
+  ...starting lambda calcs for lambda 0.0005625
+          ( time = 12:29:00,  elapsed time = 32us )
+  see .pfm file for more details
+          ( time = 12:29:00,  elapsed time = 44us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 12:29:00,  elapsed time = 16us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 12:29:00,  elapsed time = 250us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 12:29:00,  elapsed time = 616us )
+  ...finished calcs for lambda: 0.0005625
+          ( time = 12:29:00,  elapsed time = 315us )
+  ...starting lambda calcs for lambda 0.005625
+          ( time = 12:29:00,  elapsed time = 35us )
+  see .pfm file for more details
+          ( time = 12:29:00,  elapsed time = 60us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 12:29:00,  elapsed time = 24us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 12:29:00,  elapsed time = 316us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 12:29:00,  elapsed time = 804us )
+  ...finished calcs for lambda: 0.005625
+          ( time = 12:29:00,  elapsed time = 295us )
+  ...starting lambda calcs for lambda 0.05625
+          ( time = 12:29:00,  elapsed time = 36us )
+  see .pfm file for more details
+          ( time = 12:29:00,  elapsed time = 51us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 12:29:00,  elapsed time = 24us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 12:29:00,  elapsed time = 317us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 12:29:00,  elapsed time = 765us )
+  ...finished calcs for lambda: 0.05625
+          ( time = 12:29:00,  elapsed time = 386us )
+  
+  ---  running lambda ensembles  ---  
+          ( time = 12:29:00,  elapsed time = 31us )
+  queuing 9 ensembles
+          ( time = 12:29:00,  elapsed time = 7ms )
+  ...subset idx:pe real name:  1:BASE, 88:83, 25:18, 93:90, 85:80, 
+          ( time = 12:29:00,  elapsed time = 15ms )
+  making runs
+          ( time = 12:35:04,  elapsed time = 6min )
+  processing runs
+          ( time = 12:35:04,  elapsed time = 6ms )
+  
+  ---  evaluting lambda ensembles  ---  
+          ( time = 12:35:04,  elapsed time = 351us )
+  ...last mean:  6.1866
+          ( time = 12:35:04,  elapsed time = 228us )
+  ...last stdev:  2.44502
+          ( time = 12:35:04,  elapsed time = 341us )
+  
+  ---  phi summary for lambda, scale fac:0.0005625 , 0.75 ,   ---  
+          ( time = 12:35:04,  elapsed time = 408us )
+  
+  ---  phi summary for lambda, scale fac:0.0005625 , 0.925 ,   ---  
+          ( time = 12:35:04,  elapsed time = 651us )
+  
+  ---  phi summary for lambda, scale fac:0.0005625 , 1.1 ,   ---  
+          ( time = 12:35:04,  elapsed time = 695us )
+  
+  ---  phi summary for lambda, scale fac:0.005625 , 0.75 ,   ---  
+          ( time = 12:35:04,  elapsed time = 732us )
+  
+  ---  phi summary for lambda, scale fac:0.005625 , 0.925 ,   ---  
+          ( time = 12:35:04,  elapsed time = 729us )
+  
+  ---  phi summary for lambda, scale fac:0.005625 , 1.1 ,   ---  
+          ( time = 12:35:04,  elapsed time = 818us )
+  
+  ---  phi summary for lambda, scale fac:0.05625 , 0.75 ,   ---  
+          ( time = 12:35:04,  elapsed time = 673us )
+  
+  ---  phi summary for lambda, scale fac:0.05625 , 0.925 ,   ---  
+          ( time = 12:35:04,  elapsed time = 677us )
+  
+  ---  phi summary for lambda, scale fac:0.05625 , 1.1 ,   ---  
+          ( time = 12:35:04,  elapsed time = 846us )
+  
+  ---  phi summary for best lambda, scale fac: 0.0005625 , 1.1 ,   ---  
+          ( time = 12:35:04,  elapsed time = 2ms )
+  
+  ---  running remaining realizations for best lambda, scale:0.0005625 , 1.1 ,   ---  
+          ( time = 12:35:04,  elapsed time = 39us )
+  dropping subset idxs from remaining_pe_lam
+          ( time = 12:35:04,  elapsed time = 238us )
+  dropping subset idxs from remaining_oe_lam
+          ( time = 12:35:04,  elapsed time = 272us )
+  queuing 95 runs
+          ( time = 12:35:04,  elapsed time = 34ms )
+  making runs
+          ( time = 12:49:55,  elapsed time = 14min )
+  processing runs
+          ( time = 12:49:55,  elapsed time = 2ms )
+  the following par:obs realization runs failed: 57:58,
+          ( time = 12:49:55,  elapsed time = 381us )
+  ...failed realizations:  1
+          ( time = 12:49:55,  elapsed time = 159us )
+  ...the following par:obs realization runs failed: 57:58,
+          ( time = 12:49:55,  elapsed time = 22us )
+  dropping failed realizations
+          ( time = 12:49:55,  elapsed time = 413us )
+  ...the following par:obs realizations failed during evaluation of the remaining ensemble: 57:58 , 
+          ( time = 12:49:55,  elapsed time = 446us )
+  assembling ensembles
+          ( time = 12:49:55,  elapsed time = 784us )
+  updating phi
+          ( time = 12:49:55,  elapsed time = 1ms )
+  ...phi summary for entire ensemble using lambda,scale_fac 0.0005625 , 1.1 , 
+          ( time = 12:49:55,  elapsed time = 2ms )
+  ...last best mean phi * acceptable phi factor:  6.49593
+          ( time = 12:49:55,  elapsed time = 240us )
+  ...current best mean phi:  5.79876
+          ( time = 12:49:55,  elapsed time = 304us )
+  
+  ---  updating parameter ensemble  ---  
+          ( time = 12:49:55,  elapsed time = 27us )
+  updating parameter ensemble
+          ( time = 12:49:55,  elapsed time = 334us )
+  
+  ---  updating lambda to  0.000421875  ---  
+          ( time = 12:49:55,  elapsed time = 23ms )
+  
+  ---  phi-based termination criteria check  ---  
+          ( time = 12:49:55,  elapsed time = 294us )
+  ...phiredstp:  0.005
+          ( time = 12:49:55,  elapsed time = 293us )
+  ...nphistp:  4
+          ( time = 12:49:55,  elapsed time = 286us )
+  ...nphinored (also used for consecutive bad lambda cycles):  4
+          ( time = 12:49:55,  elapsed time = 142us )
+  ...best mean phi sequence: 124.681 , 7.94509 , 6.1866 , 5.79876 , 
+          ( time = 12:49:55,  elapsed time = 181us )
+  ...best phi yet:  5.79876
+          ( time = 12:49:55,  elapsed time = 228us )
+  ...number of consecutive bad lambda testing cycles:  0
+          ( time = 12:49:55,  elapsed time = 213us )
+  ...number of iterations satisfying phiredstp criteria:  1
+          ( time = 12:49:55,  elapsed time = 234us )
+  ...number of iterations since best yet mean phi:  0
+          ( time = 12:49:55,  elapsed time = 329us )
+  
+  ---  starting solve for iteration: 4  ---  
+          ( time = 12:49:55,  elapsed time = 31us )
+  starting solve for iteration: 1starting solve for iteration: 2starting solve for iteration: 3starting solve for iteration: 4
+          ( time = 12:49:55,  elapsed time = 291us )
+  ...starting lambda calcs for lambda 4.21875e-05
+          ( time = 12:49:55,  elapsed time = 35us )
+  see .pfm file for more details
+          ( time = 12:49:55,  elapsed time = 68us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 12:49:55,  elapsed time = 29us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 12:49:55,  elapsed time = 322us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 12:49:55,  elapsed time = 868us )
+  ...finished calcs for lambda: 4.21875e-05
+          ( time = 12:49:55,  elapsed time = 322us )
+  ...starting lambda calcs for lambda 0.000421875
+          ( time = 12:49:55,  elapsed time = 29us )
+  see .pfm file for more details
+          ( time = 12:49:55,  elapsed time = 39us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 12:49:55,  elapsed time = 18us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 12:49:55,  elapsed time = 195us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 12:49:55,  elapsed time = 534us )
+  ...finished calcs for lambda: 0.000421875
+          ( time = 12:49:55,  elapsed time = 308us )
+  ...starting lambda calcs for lambda 0.00421875
+          ( time = 12:49:55,  elapsed time = 17us )
+  see .pfm file for more details
+          ( time = 12:49:55,  elapsed time = 37us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 12:49:55,  elapsed time = 16us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 12:49:55,  elapsed time = 202us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 12:49:55,  elapsed time = 714us )
+  ...finished calcs for lambda: 0.00421875
+          ( time = 12:49:55,  elapsed time = 333us )
+  
+  ---  running lambda ensembles  ---  
+          ( time = 12:49:55,  elapsed time = 31us )
+  queuing 9 ensembles
+          ( time = 12:49:55,  elapsed time = 7ms )
+  ...subset idx:pe real name:  0:BASE, 30:20, 63:55, 66:59, 84:77, 
+          ( time = 12:49:55,  elapsed time = 13ms )
+  making runs
+          ( time = 12:56:43,  elapsed time = 6min )
+  processing runs
+          ( time = 12:56:43,  elapsed time = 6ms )
+  
+  ---  evaluting lambda ensembles  ---  
+          ( time = 12:56:43,  elapsed time = 343us )
+  ...last mean:  5.79876
+          ( time = 12:56:43,  elapsed time = 350us )
+  ...last stdev:  1.51224
+          ( time = 12:56:43,  elapsed time = 546us )
+  
+  ---  phi summary for lambda, scale fac:4.21875e-05 , 0.75 ,   ---  
+          ( time = 12:56:43,  elapsed time = 444us )
+  
+  ---  phi summary for lambda, scale fac:4.21875e-05 , 0.925 ,   ---  
+          ( time = 12:56:43,  elapsed time = 409us )
+  
+  ---  phi summary for lambda, scale fac:4.21875e-05 , 1.1 ,   ---  
+          ( time = 12:56:43,  elapsed time = 403us )
+  
+  ---  phi summary for lambda, scale fac:0.000421875 , 0.75 ,   ---  
+          ( time = 12:56:43,  elapsed time = 398us )
+  
+  ---  phi summary for lambda, scale fac:0.000421875 , 0.925 ,   ---  
+          ( time = 12:56:43,  elapsed time = 388us )
+  
+  ---  phi summary for lambda, scale fac:0.000421875 , 1.1 ,   ---  
+          ( time = 12:56:43,  elapsed time = 401us )
+  
+  ---  phi summary for lambda, scale fac:0.00421875 , 0.75 ,   ---  
+          ( time = 12:56:43,  elapsed time = 400us )
+  
+  ---  phi summary for lambda, scale fac:0.00421875 , 0.925 ,   ---  
+          ( time = 12:56:43,  elapsed time = 394us )
+  
+  ---  phi summary for lambda, scale fac:0.00421875 , 1.1 ,   ---  
+          ( time = 12:56:43,  elapsed time = 588us )
+  
+  ---  phi summary for best lambda, scale fac: 4.21875e-05 , 1.1 ,   ---  
+          ( time = 12:56:43,  elapsed time = 2ms )
+  
+  ---  running remaining realizations for best lambda, scale:4.21875e-05 , 1.1 ,   ---  
+          ( time = 12:56:43,  elapsed time = 28us )
+  dropping subset idxs from remaining_pe_lam
+          ( time = 12:56:43,  elapsed time = 142us )
+  dropping subset idxs from remaining_oe_lam
+          ( time = 12:56:43,  elapsed time = 141us )
+  queuing 94 runs
+          ( time = 12:56:43,  elapsed time = 31ms )
+  making runs
+          ( time = 13:10:39,  elapsed time = 13min )
+  processing runs
+          ( time = 13:10:39,  elapsed time = 2ms )
+  assembling ensembles
+          ( time = 13:10:39,  elapsed time = 498us )
+  updating phi
+          ( time = 13:10:39,  elapsed time = 1ms )
+  ...phi summary for entire ensemble using lambda,scale_fac 4.21875e-05 , 1.1 , 
+          ( time = 13:10:39,  elapsed time = 3ms )
+  ...last best mean phi * acceptable phi factor:  6.0887
+          ( time = 13:10:39,  elapsed time = 194us )
+  ...current best mean phi:  5.57845
+          ( time = 13:10:39,  elapsed time = 180us )
+  
+  ---  updating parameter ensemble  ---  
+          ( time = 13:10:39,  elapsed time = 15us )
+  updating parameter ensemble
+          ( time = 13:10:39,  elapsed time = 132us )
+  
+  ---  updating lambda to  3.16406e-05  ---  
+          ( time = 13:10:39,  elapsed time = 18ms )
+  
+  ---  phi-based termination criteria check  ---  
+          ( time = 13:10:39,  elapsed time = 226us )
+  ...phiredstp:  0.005
+          ( time = 13:10:39,  elapsed time = 155us )
+  ...nphistp:  4
+          ( time = 13:10:39,  elapsed time = 143us )
+  ...nphinored (also used for consecutive bad lambda cycles):  4
+          ( time = 13:10:39,  elapsed time = 166us )
+  ...best mean phi sequence: 124.681 , 7.94509 , 6.1866 , 5.79876 , 5.57845 , 
+          ( time = 13:10:39,  elapsed time = 165us )
+  ...best phi yet:  5.57845
+          ( time = 13:10:39,  elapsed time = 161us )
+  ...number of consecutive bad lambda testing cycles:  0
+          ( time = 13:10:39,  elapsed time = 162us )
+  ...number of iterations satisfying phiredstp criteria:  1
+          ( time = 13:10:39,  elapsed time = 200us )
+  ...number of iterations since best yet mean phi:  0
+          ( time = 13:10:39,  elapsed time = 210us )
+  
+  ---  starting solve for iteration: 5  ---  
+          ( time = 13:10:39,  elapsed time = 16us )
+  starting solve for iteration: 1starting solve for iteration: 2starting solve for iteration: 3starting solve for iteration: 4starting solve for iteration: 5
+          ( time = 13:10:39,  elapsed time = 237us )
+  ...starting lambda calcs for lambda 3.16406e-06
+          ( time = 13:10:39,  elapsed time = 21us )
+  see .pfm file for more details
+          ( time = 13:10:39,  elapsed time = 57us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 13:10:39,  elapsed time = 17us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 13:10:39,  elapsed time = 281us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 13:10:39,  elapsed time = 602us )
+  ...finished calcs for lambda: 3.16406e-06
+          ( time = 13:10:39,  elapsed time = 222us )
+  ...starting lambda calcs for lambda 3.16406e-05
+          ( time = 13:10:39,  elapsed time = 32us )
+  see .pfm file for more details
+          ( time = 13:10:39,  elapsed time = 57us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 13:10:39,  elapsed time = 24us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 13:10:39,  elapsed time = 324us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 13:10:39,  elapsed time = 816us )
+  ...finished calcs for lambda: 3.16406e-05
+          ( time = 13:10:39,  elapsed time = 265us )
+  ...starting lambda calcs for lambda 0.000316406
+          ( time = 13:10:39,  elapsed time = 51us )
+  see .pfm file for more details
+          ( time = 13:10:39,  elapsed time = 100us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 13:10:39,  elapsed time = 39us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 13:10:39,  elapsed time = 350us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 13:10:39,  elapsed time = 889us )
+  ...finished calcs for lambda: 0.000316406
+          ( time = 13:10:39,  elapsed time = 310us )
+  
+  ---  running lambda ensembles  ---  
+          ( time = 13:10:39,  elapsed time = 31us )
+  queuing 9 ensembles
+          ( time = 13:10:39,  elapsed time = 7ms )
+  ...subset idx:pe real name:  0:BASE, 30:15, 63:52, 66:56, 84:76, 
+          ( time = 13:10:39,  elapsed time = 12ms )
+  making runs
+          ( time = 13:17:34,  elapsed time = 6min )
+  processing runs
+          ( time = 13:17:34,  elapsed time = 6ms )
+  
+  ---  evaluting lambda ensembles  ---  
+          ( time = 13:17:34,  elapsed time = 242us )
+  ...last mean:  5.57845
+          ( time = 13:17:34,  elapsed time = 305us )
+  ...last stdev:  0.972534
+          ( time = 13:17:34,  elapsed time = 598us )
+  
+  ---  phi summary for lambda, scale fac:3.16406e-06 , 0.75 ,   ---  
+          ( time = 13:17:34,  elapsed time = 523us )
+  
+  ---  phi summary for lambda, scale fac:3.16406e-06 , 0.925 ,   ---  
+          ( time = 13:17:34,  elapsed time = 419us )
+  
+  ---  phi summary for lambda, scale fac:3.16406e-06 , 1.1 ,   ---  
+          ( time = 13:17:34,  elapsed time = 546us )
+  
+  ---  phi summary for lambda, scale fac:3.16406e-05 , 0.75 ,   ---  
+          ( time = 13:17:34,  elapsed time = 647us )
+  
+  ---  phi summary for lambda, scale fac:3.16406e-05 , 0.925 ,   ---  
+          ( time = 13:17:34,  elapsed time = 535us )
+  
+  ---  phi summary for lambda, scale fac:3.16406e-05 , 1.1 ,   ---  
+          ( time = 13:17:34,  elapsed time = 397us )
+  
+  ---  phi summary for lambda, scale fac:0.000316406 , 0.75 ,   ---  
+          ( time = 13:17:34,  elapsed time = 397us )
+  
+  ---  phi summary for lambda, scale fac:0.000316406 , 0.925 ,   ---  
+          ( time = 13:17:34,  elapsed time = 384us )
+  
+  ---  phi summary for lambda, scale fac:0.000316406 , 1.1 ,   ---  
+          ( time = 13:17:34,  elapsed time = 462us )
+  
+  ---  phi summary for best lambda, scale fac: 3.16406e-06 , 0.925 ,   ---  
+          ( time = 13:17:34,  elapsed time = 2ms )
+  
+  ---  running remaining realizations for best lambda, scale:3.16406e-06 , 0.925 ,   ---  
+          ( time = 13:17:34,  elapsed time = 27us )
+  dropping subset idxs from remaining_pe_lam
+          ( time = 13:17:34,  elapsed time = 149us )
+  dropping subset idxs from remaining_oe_lam
+          ( time = 13:17:34,  elapsed time = 142us )
+  queuing 94 runs
+          ( time = 13:17:34,  elapsed time = 35ms )
+  making runs
+          ( time = 13:31:47,  elapsed time = 14min )
+  processing runs
+          ( time = 13:31:47,  elapsed time = 2ms )
+  assembling ensembles
+          ( time = 13:31:47,  elapsed time = 495us )
+  updating phi
+          ( time = 13:31:47,  elapsed time = 1ms )
+  ...phi summary for entire ensemble using lambda,scale_fac 3.16406e-06 , 0.925 , 
+          ( time = 13:31:47,  elapsed time = 2ms )
+  ...last best mean phi * acceptable phi factor:  5.85737
+          ( time = 13:31:47,  elapsed time = 274us )
+  ...current best mean phi:  5.55933
+          ( time = 13:31:47,  elapsed time = 291us )
+  
+  ---  updating parameter ensemble  ---  
+          ( time = 13:31:47,  elapsed time = 25us )
+  updating parameter ensemble
+          ( time = 13:31:47,  elapsed time = 417us )
+  
+  ---  updating lambda to  2.37305e-06  ---  
+          ( time = 13:31:47,  elapsed time = 22ms )
+  
+  ---  phi-based termination criteria check  ---  
+          ( time = 13:31:47,  elapsed time = 302us )
+  ...phiredstp:  0.005
+          ( time = 13:31:47,  elapsed time = 304us )
+  ...nphistp:  4
+          ( time = 13:31:47,  elapsed time = 330us )
+  ...nphinored (also used for consecutive bad lambda cycles):  4
+          ( time = 13:31:47,  elapsed time = 338us )
+  ...best mean phi sequence: 124.681 , 7.94509 , 6.1866 , 5.79876 , 5.57845 , 5.55933 , 
+          ( time = 13:31:47,  elapsed time = 305us )
+  ...best phi yet:  5.55933
+          ( time = 13:31:47,  elapsed time = 329us )
+  ...number of consecutive bad lambda testing cycles:  0
+          ( time = 13:31:47,  elapsed time = 308us )
+  ...number of iterations satisfying phiredstp criteria:  2
+          ( time = 13:31:47,  elapsed time = 339us )
+  ...number of iterations since best yet mean phi:  0
+          ( time = 13:31:47,  elapsed time = 326us )
+  
+  ---  starting solve for iteration: 6  ---  
+          ( time = 13:31:47,  elapsed time = 42us )
+  starting solve for iteration: 1starting solve for iteration: 2starting solve for iteration: 3starting solve for iteration: 4starting solve for iteration: 5starting solve for iteration: 6
+          ( time = 13:31:47,  elapsed time = 334us )
+  ...starting lambda calcs for lambda 2.37305e-07
+          ( time = 13:31:47,  elapsed time = 43us )
+  see .pfm file for more details
+          ( time = 13:31:47,  elapsed time = 89us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 13:31:47,  elapsed time = 24us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 13:31:47,  elapsed time = 341us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 13:31:47,  elapsed time = 798us )
+  ...finished calcs for lambda: 2.37305e-07
+          ( time = 13:31:47,  elapsed time = 317us )
+  ...starting lambda calcs for lambda 2.37305e-06
+          ( time = 13:31:47,  elapsed time = 40us )
+  see .pfm file for more details
+          ( time = 13:31:47,  elapsed time = 58us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 13:31:47,  elapsed time = 24us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 13:31:47,  elapsed time = 309us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 13:31:47,  elapsed time = 880us )
+  ...finished calcs for lambda: 2.37305e-06
+          ( time = 13:31:47,  elapsed time = 188us )
+  ...starting lambda calcs for lambda 2.37305e-05
+          ( time = 13:31:47,  elapsed time = 52us )
+  see .pfm file for more details
+          ( time = 13:31:47,  elapsed time = 82us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 13:31:47,  elapsed time = 37us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 13:31:47,  elapsed time = 437us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 13:31:47,  elapsed time = 1ms )
+  ...finished calcs for lambda: 2.37305e-05
+          ( time = 13:31:47,  elapsed time = 377us )
+  
+  ---  running lambda ensembles  ---  
+          ( time = 13:31:47,  elapsed time = 34us )
+  queuing 9 ensembles
+          ( time = 13:31:47,  elapsed time = 8ms )
+  ...subset idx:pe real name:  0:BASE, 30:11, 63:49, 66:53, 84:75, 
+          ( time = 13:31:47,  elapsed time = 11ms )
+  making runs
+          ( time = 13:38:30,  elapsed time = 6min )
+  processing runs
+          ( time = 13:38:30,  elapsed time = 6ms )
+  
+  ---  evaluting lambda ensembles  ---  
+          ( time = 13:38:30,  elapsed time = 283us )
+  ...last mean:  5.55933
+          ( time = 13:38:30,  elapsed time = 266us )
+  ...last stdev:  0.952802
+          ( time = 13:38:30,  elapsed time = 601us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-07 , 0.75 ,   ---  
+          ( time = 13:38:30,  elapsed time = 469us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-07 , 0.925 ,   ---  
+          ( time = 13:38:30,  elapsed time = 408us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-07 , 1.1 ,   ---  
+          ( time = 13:38:30,  elapsed time = 458us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-06 , 0.75 ,   ---  
+          ( time = 13:38:30,  elapsed time = 294us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-06 , 0.925 ,   ---  
+          ( time = 13:38:30,  elapsed time = 291us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-06 , 1.1 ,   ---  
+          ( time = 13:38:30,  elapsed time = 277us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-05 , 0.75 ,   ---  
+          ( time = 13:38:30,  elapsed time = 299us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-05 , 0.925 ,   ---  
+          ( time = 13:38:30,  elapsed time = 302us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-05 , 1.1 ,   ---  
+          ( time = 13:38:30,  elapsed time = 508us )
+  
+  ---  phi summary for best lambda, scale fac: 2.37305e-07 , 1.1 ,   ---  
+          ( time = 13:38:30,  elapsed time = 3ms )
+  
+  ---  running remaining realizations for best lambda, scale:2.37305e-07 , 1.1 ,   ---  
+          ( time = 13:38:30,  elapsed time = 33us )
+  dropping subset idxs from remaining_pe_lam
+          ( time = 13:38:30,  elapsed time = 168us )
+  dropping subset idxs from remaining_oe_lam
+          ( time = 13:38:30,  elapsed time = 172us )
+  queuing 94 runs
+          ( time = 13:38:30,  elapsed time = 27ms )
+  making runs
+          ( time = 13:52:12,  elapsed time = 13min )
+  processing runs
+          ( time = 13:52:12,  elapsed time = 2ms )
+  assembling ensembles
+          ( time = 13:52:12,  elapsed time = 539us )
+  updating phi
+          ( time = 13:52:12,  elapsed time = 1ms )
+  ...phi summary for entire ensemble using lambda,scale_fac 2.37305e-07 , 1.1 , 
+          ( time = 13:52:12,  elapsed time = 2ms )
+  ...last best mean phi * acceptable phi factor:  5.8373
+          ( time = 13:52:12,  elapsed time = 211us )
+  ...current best mean phi:  5.59954
+          ( time = 13:52:12,  elapsed time = 325us )
+  
+  ---  updating parameter ensemble  ---  
+          ( time = 13:52:12,  elapsed time = 28us )
+  updating parameter ensemble
+          ( time = 13:52:12,  elapsed time = 327us )
+  
+  ---  not updating lambda  ---  
+          ( time = 13:52:12,  elapsed time = 17ms )
+  
+  ---  phi-based termination criteria check  ---  
+          ( time = 13:52:12,  elapsed time = 150us )
+  ...phiredstp:  0.005
+          ( time = 13:52:12,  elapsed time = 132us )
+  ...nphistp:  4
+          ( time = 13:52:12,  elapsed time = 124us )
+  ...nphinored (also used for consecutive bad lambda cycles):  4
+          ( time = 13:52:12,  elapsed time = 168us )
+  ...best mean phi sequence: 124.681 , 7.94509 , 6.1866 , 5.79876 , 5.57845 , 5.55933 , 5.59954 , 
+          ( time = 13:52:12,  elapsed time = 205us )
+  ...best phi yet:  5.55933
+          ( time = 13:52:12,  elapsed time = 209us )
+  ...number of consecutive bad lambda testing cycles:  0
+          ( time = 13:52:12,  elapsed time = 132us )
+  ...number of iterations satisfying phiredstp criteria:  2
+          ( time = 13:52:12,  elapsed time = 280us )
+  ...number of iterations since best yet mean phi:  1
+          ( time = 13:52:12,  elapsed time = 172us )
+  
+  ---  starting solve for iteration: 7  ---  
+          ( time = 13:52:12,  elapsed time = 19us )
+  starting solve for iteration: 1starting solve for iteration: 2starting solve for iteration: 3starting solve for iteration: 4starting solve for iteration: 5starting solve for iteration: 6starting solve for iteration: 7
+          ( time = 13:52:12,  elapsed time = 315us )
+  ...starting lambda calcs for lambda 2.37305e-07
+          ( time = 13:52:12,  elapsed time = 19us )
+  see .pfm file for more details
+          ( time = 13:52:12,  elapsed time = 49us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 13:52:12,  elapsed time = 20us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 13:52:12,  elapsed time = 244us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 13:52:12,  elapsed time = 726us )
+  ...finished calcs for lambda: 2.37305e-07
+          ( time = 13:52:12,  elapsed time = 281us )
+  ...starting lambda calcs for lambda 2.37305e-06
+          ( time = 13:52:12,  elapsed time = 21us )
+  see .pfm file for more details
+          ( time = 13:52:12,  elapsed time = 37us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 13:52:12,  elapsed time = 18us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 13:52:12,  elapsed time = 208us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 13:52:12,  elapsed time = 533us )
+  ...finished calcs for lambda: 2.37305e-06
+          ( time = 13:52:12,  elapsed time = 310us )
+  ...starting lambda calcs for lambda 2.37305e-05
+          ( time = 13:52:12,  elapsed time = 19us )
+  see .pfm file for more details
+          ( time = 13:52:12,  elapsed time = 36us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 13:52:12,  elapsed time = 18us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 13:52:12,  elapsed time = 191us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 13:52:12,  elapsed time = 651us )
+  ...finished calcs for lambda: 2.37305e-05
+          ( time = 13:52:12,  elapsed time = 199us )
+  
+  ---  running lambda ensembles  ---  
+          ( time = 13:52:12,  elapsed time = 16us )
+  queuing 9 ensembles
+          ( time = 13:52:12,  elapsed time = 7ms )
+  ...subset idx:pe real name:  0:BASE, 30:7, 63:46, 66:50, 84:74, 
+          ( time = 13:52:12,  elapsed time = 14ms )
+  making runs
+          ( time = 13:59:19,  elapsed time = 7min )
+  processing runs
+          ( time = 13:59:19,  elapsed time = 7ms )
+  
+  ---  evaluting lambda ensembles  ---  
+          ( time = 13:59:19,  elapsed time = 160us )
+  ...last mean:  5.59954
+          ( time = 13:59:19,  elapsed time = 123us )
+  ...last stdev:  1.0734
+          ( time = 13:59:19,  elapsed time = 617us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-07 , 0.75 ,   ---  
+          ( time = 13:59:19,  elapsed time = 455us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-07 , 0.925 ,   ---  
+          ( time = 13:59:19,  elapsed time = 411us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-07 , 1.1 ,   ---  
+          ( time = 13:59:19,  elapsed time = 400us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-06 , 0.75 ,   ---  
+          ( time = 13:59:19,  elapsed time = 387us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-06 , 0.925 ,   ---  
+          ( time = 13:59:19,  elapsed time = 530us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-06 , 1.1 ,   ---  
+          ( time = 13:59:19,  elapsed time = 394us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-05 , 0.75 ,   ---  
+          ( time = 13:59:19,  elapsed time = 384us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-05 , 0.925 ,   ---  
+          ( time = 13:59:19,  elapsed time = 387us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-05 , 1.1 ,   ---  
+          ( time = 13:59:19,  elapsed time = 420us )
+  
+  ---  phi summary for best lambda, scale fac: 2.37305e-07 , 1.1 ,   ---  
+          ( time = 13:59:19,  elapsed time = 2ms )
+  
+  ---  running remaining realizations for best lambda, scale:2.37305e-07 , 1.1 ,   ---  
+          ( time = 13:59:19,  elapsed time = 30us )
+  dropping subset idxs from remaining_pe_lam
+          ( time = 13:59:19,  elapsed time = 97us )
+  dropping subset idxs from remaining_oe_lam
+          ( time = 13:59:19,  elapsed time = 136us )
+  queuing 94 runs
+          ( time = 13:59:19,  elapsed time = 28ms )
+  making runs
+          ( time = 14:13:47,  elapsed time = 14min )
+  processing runs
+          ( time = 14:13:47,  elapsed time = 2ms )
+  assembling ensembles
+          ( time = 14:13:47,  elapsed time = 549us )
+  updating phi
+          ( time = 14:13:47,  elapsed time = 1ms )
+  ...phi summary for entire ensemble using lambda,scale_fac 2.37305e-07 , 1.1 , 
+          ( time = 14:13:47,  elapsed time = 2ms )
+  ...last best mean phi * acceptable phi factor:  5.87952
+          ( time = 14:13:47,  elapsed time = 195us )
+  ...current best mean phi:  5.6546
+          ( time = 14:13:47,  elapsed time = 244us )
+  
+  ---  updating parameter ensemble  ---  
+          ( time = 14:13:47,  elapsed time = 27us )
+  updating parameter ensemble
+          ( time = 14:13:47,  elapsed time = 244us )
+  
+  ---  not updating lambda  ---  
+          ( time = 14:13:47,  elapsed time = 28ms )
+  
+  ---  phi-based termination criteria check  ---  
+          ( time = 14:13:47,  elapsed time = 153us )
+  ...phiredstp:  0.005
+          ( time = 14:13:47,  elapsed time = 135us )
+  ...nphistp:  4
+          ( time = 14:13:47,  elapsed time = 128us )
+  ...nphinored (also used for consecutive bad lambda cycles):  4
+          ( time = 14:13:47,  elapsed time = 164us )
+  ...best mean phi sequence: 124.681 , 7.94509 , 6.1866 , 5.79876 , 5.57845 , 5.55933 , 5.59954 , 5.6546 , 
+          ( time = 14:13:47,  elapsed time = 130us )
+  ...best phi yet:  5.55933
+          ( time = 14:13:47,  elapsed time = 128us )
+  ...number of consecutive bad lambda testing cycles:  0
+          ( time = 14:13:47,  elapsed time = 135us )
+  ...number of iterations satisfying phiredstp criteria:  2
+          ( time = 14:13:47,  elapsed time = 254us )
+  ...number of iterations since best yet mean phi:  2
+          ( time = 14:13:47,  elapsed time = 185us )
+  
+  ---  starting solve for iteration: 8  ---  
+          ( time = 14:13:47,  elapsed time = 28us )
+  starting solve for iteration: 1starting solve for iteration: 2starting solve for iteration: 3starting solve for iteration: 4starting solve for iteration: 5starting solve for iteration: 6starting solve for iteration: 7starting solve for iteration: 8
+          ( time = 14:13:47,  elapsed time = 181us )
+  ...starting lambda calcs for lambda 2.37305e-07
+          ( time = 14:13:47,  elapsed time = 27us )
+  see .pfm file for more details
+          ( time = 14:13:47,  elapsed time = 55us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 14:13:47,  elapsed time = 24us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 14:13:47,  elapsed time = 323us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 14:13:47,  elapsed time = 905us )
+  ...finished calcs for lambda: 2.37305e-07
+          ( time = 14:13:47,  elapsed time = 318us )
+  ...starting lambda calcs for lambda 2.37305e-06
+          ( time = 14:13:47,  elapsed time = 39us )
+  see .pfm file for more details
+          ( time = 14:13:47,  elapsed time = 54us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 14:13:47,  elapsed time = 24us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 14:13:47,  elapsed time = 329us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 14:13:47,  elapsed time = 926us )
+  ...finished calcs for lambda: 2.37305e-06
+          ( time = 14:13:47,  elapsed time = 289us )
+  ...starting lambda calcs for lambda 2.37305e-05
+          ( time = 14:13:47,  elapsed time = 36us )
+  see .pfm file for more details
+          ( time = 14:13:47,  elapsed time = 53us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 14:13:47,  elapsed time = 24us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 14:13:47,  elapsed time = 337us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 14:13:47,  elapsed time = 711us )
+  ...finished calcs for lambda: 2.37305e-05
+          ( time = 14:13:47,  elapsed time = 388us )
+  
+  ---  running lambda ensembles  ---  
+          ( time = 14:13:47,  elapsed time = 31us )
+  queuing 9 ensembles
+          ( time = 14:13:47,  elapsed time = 10ms )
+  ...subset idx:pe real name:  0:BASE, 30:3, 63:43, 66:47, 84:73, 
+          ( time = 14:13:47,  elapsed time = 15ms )
+  making runs
+          ( time = 14:20:42,  elapsed time = 6min )
+  processing runs
+          ( time = 14:20:42,  elapsed time = 6ms )
+  
+  ---  evaluting lambda ensembles  ---  
+          ( time = 14:20:42,  elapsed time = 388us )
+  ...last mean:  5.6546
+          ( time = 14:20:42,  elapsed time = 423us )
+  ...last stdev:  1.14953
+          ( time = 14:20:42,  elapsed time = 528us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-07 , 0.75 ,   ---  
+          ( time = 14:20:42,  elapsed time = 557us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-07 , 0.925 ,   ---  
+          ( time = 14:20:42,  elapsed time = 445us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-07 , 1.1 ,   ---  
+          ( time = 14:20:42,  elapsed time = 374us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-06 , 0.75 ,   ---  
+          ( time = 14:20:42,  elapsed time = 352us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-06 , 0.925 ,   ---  
+          ( time = 14:20:42,  elapsed time = 395us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-06 , 1.1 ,   ---  
+          ( time = 14:20:42,  elapsed time = 383us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-05 , 0.75 ,   ---  
+          ( time = 14:20:42,  elapsed time = 399us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-05 , 0.925 ,   ---  
+          ( time = 14:20:42,  elapsed time = 387us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-05 , 1.1 ,   ---  
+          ( time = 14:20:42,  elapsed time = 414us )
+  
+  ---  phi summary for best lambda, scale fac: 2.37305e-07 , 1.1 ,   ---  
+          ( time = 14:20:42,  elapsed time = 2ms )
+  
+  ---  running remaining realizations for best lambda, scale:2.37305e-07 , 1.1 ,   ---  
+          ( time = 14:20:42,  elapsed time = 17us )
+  dropping subset idxs from remaining_pe_lam
+          ( time = 14:20:42,  elapsed time = 149us )
+  dropping subset idxs from remaining_oe_lam
+          ( time = 14:20:42,  elapsed time = 159us )
+  queuing 94 runs
+          ( time = 14:20:42,  elapsed time = 28ms )
+  making runs
+          ( time = 14:34:16,  elapsed time = 13min )
+  processing runs
+          ( time = 14:34:16,  elapsed time = 2ms )
+  assembling ensembles
+          ( time = 14:34:16,  elapsed time = 499us )
+  updating phi
+          ( time = 14:34:16,  elapsed time = 1ms )
+  ...phi summary for entire ensemble using lambda,scale_fac 2.37305e-07 , 1.1 , 
+          ( time = 14:34:16,  elapsed time = 2ms )
+  ...last best mean phi * acceptable phi factor:  5.93733
+          ( time = 14:34:16,  elapsed time = 175us )
+  ...current best mean phi:  5.68205
+          ( time = 14:34:16,  elapsed time = 229us )
+  
+  ---  updating parameter ensemble  ---  
+          ( time = 14:34:16,  elapsed time = 23us )
+  updating parameter ensemble
+          ( time = 14:34:16,  elapsed time = 226us )
+  
+  ---  not updating lambda  ---  
+          ( time = 14:34:16,  elapsed time = 21ms )
+  
+  ---  phi-based termination criteria check  ---  
+          ( time = 14:34:16,  elapsed time = 144us )
+  ...phiredstp:  0.005
+          ( time = 14:34:16,  elapsed time = 134us )
+  ...nphistp:  4
+          ( time = 14:34:16,  elapsed time = 161us )
+  ...nphinored (also used for consecutive bad lambda cycles):  4
+          ( time = 14:34:16,  elapsed time = 197us )
+  ...best mean phi sequence: 124.681 , 7.94509 , 6.1866 , 5.79876 , 5.57845 , 5.55933 , 5.59954 , 5.6546 , 5.68205 , 
+          ( time = 14:34:16,  elapsed time = 364us )
+  ...best phi yet:  5.55933
+          ( time = 14:34:16,  elapsed time = 289us )
+  ...number of consecutive bad lambda testing cycles:  0
+          ( time = 14:34:16,  elapsed time = 285us )
+  ...number of iterations satisfying phiredstp criteria:  2
+          ( time = 14:34:16,  elapsed time = 209us )
+  ...number of iterations since best yet mean phi:  3
+          ( time = 14:34:16,  elapsed time = 149us )
+  
+  ---  starting solve for iteration: 9  ---  
+          ( time = 14:34:16,  elapsed time = 50us )
+  starting solve for iteration: 1starting solve for iteration: 2starting solve for iteration: 3starting solve for iteration: 4starting solve for iteration: 5starting solve for iteration: 6starting solve for iteration: 7starting solve for iteration: 8starting solve for iteration: 9
+          ( time = 14:34:16,  elapsed time = 370us )
+  ...starting lambda calcs for lambda 2.37305e-07
+          ( time = 14:34:16,  elapsed time = 35us )
+  see .pfm file for more details
+          ( time = 14:34:16,  elapsed time = 61us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 14:34:16,  elapsed time = 24us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 14:34:16,  elapsed time = 298us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 14:34:16,  elapsed time = 798us )
+  ...finished calcs for lambda: 2.37305e-07
+          ( time = 14:34:16,  elapsed time = 322us )
+  ...starting lambda calcs for lambda 2.37305e-06
+          ( time = 14:34:16,  elapsed time = 38us )
+  see .pfm file for more details
+          ( time = 14:34:16,  elapsed time = 56us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 14:34:16,  elapsed time = 29us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 14:34:16,  elapsed time = 323us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 14:34:16,  elapsed time = 906us )
+  ...finished calcs for lambda: 2.37305e-06
+          ( time = 14:34:16,  elapsed time = 272us )
+  ...starting lambda calcs for lambda 2.37305e-05
+          ( time = 14:34:16,  elapsed time = 62us )
+  see .pfm file for more details
+          ( time = 14:34:16,  elapsed time = 85us )
+  preparing fast-look containers for threaded localization solve
+          ( time = 14:34:16,  elapsed time = 39us )
+  extracting diagonal from prior parameter covariance matrix
+          ( time = 14:34:16,  elapsed time = 447us )
+  upgrade thread progress: 0 of 1 parts done
+          ( time = 14:34:16,  elapsed time = 1ms )
+  ...finished calcs for lambda: 2.37305e-05
+          ( time = 14:34:16,  elapsed time = 345us )
+  
+  ---  running lambda ensembles  ---  
+          ( time = 14:34:16,  elapsed time = 33us )
+  queuing 9 ensembles
+          ( time = 14:34:16,  elapsed time = 9ms )
+  ...subset idx:pe real name:  0:BASE, 30:88, 63:40, 66:44, 84:72, 
+          ( time = 14:34:16,  elapsed time = 12ms )
+  making runs
+          ( time = 14:41:11,  elapsed time = 6min )
+  processing runs
+          ( time = 14:41:11,  elapsed time = 7ms )
+  
+  ---  evaluting lambda ensembles  ---  
+          ( time = 14:41:11,  elapsed time = 187us )
+  ...last mean:  5.68205
+          ( time = 14:41:11,  elapsed time = 171us )
+  ...last stdev:  1.22829
+          ( time = 14:41:11,  elapsed time = 531us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-07 , 0.75 ,   ---  
+          ( time = 14:41:11,  elapsed time = 455us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-07 , 0.925 ,   ---  
+          ( time = 14:41:11,  elapsed time = 413us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-07 , 1.1 ,   ---  
+          ( time = 14:41:11,  elapsed time = 396us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-06 , 0.75 ,   ---  
+          ( time = 14:41:11,  elapsed time = 398us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-06 , 0.925 ,   ---  
+          ( time = 14:41:11,  elapsed time = 390us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-06 , 1.1 ,   ---  
+          ( time = 14:41:11,  elapsed time = 400us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-05 , 0.75 ,   ---  
+          ( time = 14:41:11,  elapsed time = 409us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-05 , 0.925 ,   ---  
+          ( time = 14:41:11,  elapsed time = 386us )
+  
+  ---  phi summary for lambda, scale fac:2.37305e-05 , 1.1 ,   ---  
+          ( time = 14:41:11,  elapsed time = 494us )
+  
+  ---  phi summary for best lambda, scale fac: 2.37305e-05 , 0.75 ,   ---  
+          ( time = 14:41:11,  elapsed time = 2ms )
+  
+  ---  running remaining realizations for best lambda, scale:2.37305e-05 , 0.75 ,   ---  
+          ( time = 14:41:11,  elapsed time = 28us )
+  dropping subset idxs from remaining_pe_lam
+          ( time = 14:41:11,  elapsed time = 162us )
+  dropping subset idxs from remaining_oe_lam
+          ( time = 14:41:11,  elapsed time = 146us )
+  queuing 94 runs
+          ( time = 14:41:11,  elapsed time = 40ms )
+  making runs
+          ( time = 14:54:54,  elapsed time = 13min )
+  processing runs
+          ( time = 14:54:54,  elapsed time = 2ms )
+  assembling ensembles
+          ( time = 14:54:54,  elapsed time = 494us )
+  updating phi
+          ( time = 14:54:54,  elapsed time = 1ms )
+  ...phi summary for entire ensemble using lambda,scale_fac 2.37305e-05 , 0.75 , 
+          ( time = 14:54:54,  elapsed time = 2ms )
+  ...last best mean phi * acceptable phi factor:  5.96615
+          ( time = 14:54:54,  elapsed time = 219us )
+  ...current best mean phi:  5.71649
+          ( time = 14:54:54,  elapsed time = 261us )
+  
+  ---  updating parameter ensemble  ---  
+          ( time = 14:54:54,  elapsed time = 35us )
+  updating parameter ensemble
+          ( time = 14:54:54,  elapsed time = 279us )
+  
+  ---  not updating lambda  ---  
+          ( time = 14:54:54,  elapsed time = 18ms )
+  
+  ---  phi-based termination criteria check  ---  
+          ( time = 14:54:54,  elapsed time = 270us )
+  ...phiredstp:  0.005
+          ( time = 14:54:54,  elapsed time = 178us )
+  ...nphistp:  4
+          ( time = 14:54:54,  elapsed time = 117us )
+  ...nphinored (also used for consecutive bad lambda cycles):  4
+          ( time = 14:54:54,  elapsed time = 211us )
+  ...best mean phi sequence: 124.681 , 7.94509 , 6.1866 , 5.79876 , 5.57845 , 5.55933 , 5.59954 , 5.6546 , 5.68205 , 5.71649 , 
+          ( time = 14:54:54,  elapsed time = 168us )
+  ...best phi yet:  5.55933
+          ( time = 14:54:54,  elapsed time = 184us )
+  ...number of consecutive bad lambda testing cycles:  0
+          ( time = 14:54:54,  elapsed time = 244us )
+  ...number of iterations satisfying phiredstp criteria:  2
+          ( time = 14:54:54,  elapsed time = 292us )
+  ...number of iterations since best yet mean phi:  4
+          ( time = 14:54:54,  elapsed time = 295us )
+  ...number of iterations since best yet mean phi > nphinored
+          ( time = 14:54:54,  elapsed time = 283us )
+  ...phi-based termination criteria satisfied, all done

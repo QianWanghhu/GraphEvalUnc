@@ -190,13 +190,13 @@ new_output_fn = os.path.join(model_directory, MODEL_NAME + '_TEMP'+ '.h5') #Wher
 ##======================Processing outputs===========================#
 spot_obj=spot_setup(master_input) # Calibration class into callable object
 print('Read Parameters')
-parameters = pd.read_csv('output/work_100_0.005_4_unbased/parameter_absolute_value.csv', index_col='real_name')
+parameters = pd.read_csv('output/work_till_2017/parameter_absolute_value.csv', index_col='real_name')
 for index, row in parameters.iterrows():
     parameters_vector = row.values
     flow, annual_loads = spot_obj.simulation(parameters_vector, model_fn, model_dataframes, new_output_fn)
     flow_load = pd.concat([flow, annual_loads], axis = 1)
     flow_load.columns = ['Q (m3/s)', 'Load (t)']
-    flow_load.to_csv(f'output/DailyData_work_100_0.005_4_unbase/RUN_{index}.csv')
+    flow_load.to_csv(f'output/DailyData_work_till_2017/RUN_{index}.csv')
 
 ##======================Run model with default parameter values===========================#
 # Note that the default values might have been changed due to calibration and the oldest model verson used is 2024/06/25.
@@ -212,4 +212,4 @@ annual_sum = din['2009-07-01':'2022-07-01 '] # years of interest
 flow_filter = flow['2009-07-01':'2022-07-01 ']
 flow_load = pd.concat([flow_filter, annual_sum], axis = 1)
 flow_load.columns = ['Q (m3/s)', 'Load (t)']
-flow_load.to_csv('output/DailyData_work_100_0.005_4_unbase/RunDefaultPar.csv')
+flow_load.to_csv('output/DailyData_work_till_2017/RunDefaultPar.csv')
